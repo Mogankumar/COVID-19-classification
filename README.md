@@ -24,24 +24,24 @@ The solution consists of two classifiers:
  Proposed Architecture
 
 Both classifiers use a similar CNN architecture:
-	1.	Convolutional Layer:
-  	•	32 filters of size 3 \times 3.
+1.	Convolutional Layer:
+  	•	32 filters of size 3 * 3.
   	•	Activation: ReLU
-	2.	Pooling Layer:
-	  •	Max-pooling with a pool size of 2 \times 2.
-	3.	Flattening Layer:
+2.	Pooling Layer:
+	  •	Max-pooling with a pool size of 2 * 2.
+3.	Flattening Layer:
   	•	Converts 2D feature maps into a 1D array.
-	4.	Dropout:
+4.	Dropout:
 	  •	Dropout rate of 0.3 to prevent overfitting.
-	5.	Dense Layers:
+5.	Dense Layers:
 	  •	Fully connected layer with 32 units (ReLU activation).
 	  •	Output layer with 1 unit (Sigmoid activation for binary classification).
 
 Conclusion
-	•	The two-layer CNN architecture effectively classifies chest X-ray images into Normal, COVID-19, and Viral Pneumonia with high accuracy.
-	•	Classifier 1 Accuracy: ~91%
-	•	Classifier 2 Accuracy: ~96%
-	•	The model demonstrates the potential for deep learning to assist in early diagnosis and treatment of COVID-19.
+1. The two-layer CNN architecture effectively classifies chest X-ray images into Normal, COVID-19, and Viral Pneumonia with high accuracy.
+2. Classifier 1 Accuracy: ~91%
+3. Classifier 2 Accuracy: ~96%
+4. The model demonstrates the potential for deep learning to assist in early diagnosis and treatment of COVID-19.
 
 
    
